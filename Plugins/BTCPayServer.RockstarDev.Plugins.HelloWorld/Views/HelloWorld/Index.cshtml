@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Hello World Plugin";
+    Layout = "_Layout";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+            <h1 class="display-3 mb-4">Hello World!</h1>
+            <p class="lead">Welcome to the BTCPay Server Hello World Plugin</p>
+            <div class="alert alert-success mt-4" role="alert">
+                <h4 class="alert-heading">Plugin Successfully Loaded!</h4>
+                <p>This is a simple demonstration plugin showing how to create BTCPay Server plugins.</p>
+                <hr>
+                <p class="mb-0">You can extend this plugin by adding controllers, views, services, and more!</p>
+            </div>
+            <div class="mt-4">
+                <a asp-controller="UIHome" asp-action="Index" class="btn btn-primary">Back to Home</a>
+            </div>
+        </div>
+    </div>
+</div>
